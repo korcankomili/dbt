@@ -1,0 +1,16 @@
+
+version: 2
+
+sources:
+  - name: public
+    description: "necessary tables to start POC"
+    
+    tables:
+      - name: base_currencylayer__currencies_conversion_rates
+      - name: base_google_sheets__country_codes_and_names
+      - name: base_itunes_connect__sales_subscriber_detailed
+
+models:
+  - name: stg_currencylayer__currencies_conversion_rates
+    description: "Currency conversion rates"
+    
